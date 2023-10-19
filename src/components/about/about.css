@@ -1,0 +1,14 @@
+/*---------About--------*/
+#about {
+  background-size: cover;
+  background-position: center center;
+
+  display: -ms-flexbox;
+  display: flex;
+
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  text-align: right;
+}
