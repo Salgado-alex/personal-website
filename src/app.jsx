@@ -10,7 +10,6 @@ const App = () => {
       <About />
       <Experience />
       <Nav />
-
       <Contact />
       <Footer />
     </>

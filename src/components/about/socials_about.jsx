@@ -3,7 +3,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { ImYoutube2 } from "react-icons/im";
 
-const socials_about = () => {
+const Socials_about = () => {
   return (
     <div className="header_socials">
       <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
@@ -19,4 +19,4 @@ const socials_about = () => {
   );
 };
 
-export default socials_about;
+export default Socials_about;

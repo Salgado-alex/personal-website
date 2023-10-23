@@ -12,6 +12,7 @@
   position: relative;
   text-align: right;
 }
+
 #about {
   padding-top: 100px;
 }
@@ -31,4 +32,30 @@
 
 .about-thumb p {
   padding: 2px 0;
+}
+/*header socials*/
+.header_socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+}
+
+.header_socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background-color: #f0f0f0;
+}
+
+.pic-img {
+  margin: auto 100px;
+
+  float: left;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
 }

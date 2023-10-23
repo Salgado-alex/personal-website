@@ -1,0 +1,13 @@
+/*---------------------------------------
+  Footer section              
+-----------------------------------------*/
+
+footer {
+  background: #7682cc;
+  text-align: center;
+  padding: 120px 0;
+}
+
+footer p {
+  padding-bottom: 16px;
+}
