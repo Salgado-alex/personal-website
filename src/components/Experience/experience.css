@@ -1,79 +1,78 @@
-/*---------------------------------------
-  Service section              
------------------------------------------*/
-
-.service-thumb {
-  background-color: white;
-  border-radius: 5px;
-  padding: 42px 22px;
-  cursor: crosshair;
-  position: relative;
-  top: 0;
-
-  transition: all ease-in-out 0.4s;
+.about_container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
 }
-
-.service-thumb:hover {
-  background: #2b2b2b;
-  top: -5px;
-}
-
-.service-thumb:hover .fa,
-.service-thumb:hover h4 {
-  color: #ffffff;
-}
-
-.service-thumb h4 {
+.about_cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
-
-.service-thumb .fa {
-  color: #7682cc;
-  font-size: 62px;
+.about_card {
+  background-color: aqua;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
   text-align: center;
-  margin-top: 32px;
-  margin-bottom: 22px;
+  transition: var(--transition);
+}
+.about_card:hover {
+  background: transparent;
+  background-color: var(--color-primary-variant);
+  cursor: default;
 }
 
-.bg-grey .fa {
-  color: #ffffff;
+.about_icon {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
 }
 
-/*---------------------------------------
-  Work section              
------------------------------------------*/
-
-.work-thumb {
-  margin: 22px 0 12px 0;
-  padding: 0;
-  overflow: hidden;
-  position: relative;
-  text-align: left;
+.about_card h5 {
+  font-size: 0.95rem;
+}
+.about_card small {
+  font-size: 0.7rem;
+  color: var(--color-light);
+}
+.about_content p {
+  margin: 2rem 0 2.6rem;
+  color: var(--color-light);
 }
 
-.work-thumb img {
-  border-radius: 5px;
+.experience_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.experience_container > div {
+  background: var(--color-bg-variant);
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+.experience_container > div:hover {
+  background: transparent;
+  border-color: var(--color-primary-varient);
+  cursor: default;
+}
+.experience_container > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+}
+.experience_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+}
+.experience_details {
+  display: flex;
+  gap: 1rem;
 }
 
-.work-thumb h2 {
-  font-size: 25px;
-}
-
-.work-thumb-overlay {
-  position: absolute;
-  background: #7682cc;
-  border-radius: 5px;
-  cursor: crosshair;
-  opacity: 0;
-  width: 100%;
-  height: 100%;
-  padding: 82px 42px;
-
-  transition: all ease-in-out 0.4s;
-}
-
-.work-thumb:hover .work-thumb-overlay {
-  opacity: 1;
+.experience_details-icon {
+  margin-top: 6px;
+  color: var(--color-primary);
 }

@@ -1,97 +1,125 @@
 import React from "react";
 import "./experience.css";
-//import { BsCardChecklist } from "react-icons/bs";
-
+import { BsCardChecklist } from "react-icons/bs";
+import { FiAward } from "react-icons/fi";
+import { FiUsers } from "react-icons/fi";
+import { BsFillFolderFill } from "react-icons/bs";
 const Experience = () => {
   return (
-    <section id="service" class="parallax-section">
-      <div class="container">
-        <div class="row">
-          <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
-            <h2>what things i am doing...</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur venenatis tincidunt.</p>
-          </div>
+    <section id="experience">
+      <h5>Get to know </h5>
+      <h2>About me</h2>
+      <div className="container about_container">
+        <div className="about_content">
+          <div className="about_cards">
+            <article className="about_card">
+              <FiAward className="about_icon" />
+              <h5>Experience</h5>
+              <small>Number of years of Exp.</small>
+            </article>
 
-          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
-            <div class="service-thumb">
-              <i class="fa fa-smile-o"></i>
-              <h4>Graphic Design</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing morbi
-                venenatis.
-              </p>
-            </div>
-          </div>
+            <article className="about_card">
+              <FiUsers className="about_icon" />
+              <h5>clients</h5>
+              <small>#of clients worked with</small>
+            </article>
 
-          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
-            <div class="service-thumb bg-grey">
-              <i class="fa fa-camera"></i>
-              <h4 class="white-color">Photography</h4>
-              <p>
-                Duis sed arcu sed nunc maximus tempor. Maecenas et enim laoreet,
-                pharetra risus vel.
-              </p>
-            </div>
+            <article className="about_card">
+              <BsFillFolderFill className="about_icon" />
+              <h5>Projects</h5>
+              <small># of completed projects</small>
+            </article>
           </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            possimus voluptatum deleniti porro quibusdam pariatur nam esse
+            earum, maxime fugiat. Itaque rem sit dolor exercitationem repellat
+            perspiciatis soluta tenetur numquam.
+          </p>
+          <a href="#contact" className="btn btn-primary">
+            Contact Me
+          </a>
+        </div>
+      </div>
 
-          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-            <div class="service-thumb">
-              <i class="fa fa-lightbulb-o"></i>
-              <h4>UI/UX design</h4>
-              <p>
-                Sed tristique, nunc sit amet pellentesque pharetra, sapien urna.
-              </p>
-            </div>
+      <h5>The skills I have</h5>
+      <h2>My Experience</h2>
+      <div className="container experience_container">
+        <div className="experience_frontend">
+          <h3>Frontend Development</h3>
+          <div className="experience_content">
+            <article className="experience_details">
+              <BsCardChecklist className="experience_details-icon" />
+              <div>
+                <h4>HTML</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsCardChecklist className="experience_details-icon" />
+              <div>
+                <h4>CSS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsCardChecklist className="experience_details-icon" />
+              <div>
+                <h4>Javascript</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsCardChecklist className="experience_details-icon" />
+              <div>
+                <h4>React</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsCardChecklist className="experience_details-icon" />
+              <div>
+                <h4>Typescript</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
           </div>
-
-          <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
-            <div class="service-thumb">
-              <i class="fa fa-clone"></i>
-              <h4>illustration</h4>
-              <p>
-                Cras ut urna quis nisi luctus molestie tincidunt sed ipsum.
-                Donec gravida laoreet erat.
-              </p>
-            </div>
+        </div>
+        <div className="experience_backend">
+          <h3>Backend Developement</h3>
+          <div className="experience_content">
+            <article className="experience_details">
+              <BsCardChecklist className="experience_details-icon" />
+              <div>
+                <h4>Java</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsCardChecklist className="experience_details-icon" />
+              <div>
+                <h4>C++</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsCardChecklist className="experience_details-icon" />
+              <div>
+                <h4>Javascript</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsCardChecklist className="experience_details-icon" />
+              <div>
+                <h4>Python</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
           </div>
         </div>
       </div>
     </section>
-    /*
-    <section id="about" class="parallax-section">
-     <div class="container">
-          <div class="row">
-               
-               <div class="col-md-4 col-sm-8">
-                    <div class="about-image-thumb">
-                         <img src="/images/6BA5CEBE-AE58-4EE3-A821-CBD1B4C6A8DF.jpeg " class="wow fadeInUp img-responsive" data-wow-delay="0.2s" alt="about image">
-                         <ul class="social-icon">
-                              <li><a href="#" class="fa fa-facebook"></a></li>
-                              <li><a href="#" class="fa fa-twitter"></a></li>
-                              <li><a href="#" class="fa fa-instagram"></a></li>
-                              <li><a href="#" class="fa fa-behance"></a></li>
-                         </ul>
-                    </div>
-               </div>
-
-               <div class="col-md-8 col-sm-12">
-                    <div class="about-thumb">
-                         <!-- SECTION TITLE -->
-                         <div class="wow fadeInUp section-title" data-wow-delay="0.6s">
-                              <h2>More About Me </h2>
-                              <p>Front-end Developer</p>
-                         </div>
-                         <div class="wow fadeInUp" data-wow-delay="0.8s">
-                              <p>Praesent eleifend tristique nisl, nec finibus urna posuere nec. Quisque vel nunc eget arcu maximus facilisis non eu nisi. Aliquam ullamcorper est a nisl imperdiet luctus.</p>
-                              <p>Sed sed convallis odio. Nulla scelerisque libero efficitur diam fermentum, quis tincidunt urna placerat. Maecenas sed tortor sed nisi semper ultricies. Nulla ornare metus in massa mollis scelerisque.</p>
-                         </div>
-                    </div>
-               </div>
-
-          </div>
-     </div>
-</section>
-*/
   );
 };
 export default Experience;
