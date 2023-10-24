@@ -20,7 +20,7 @@ const Experience = () => {
 
             <article className="about_card">
               <FiUsers className="about_icon" />
-              <h5>clients</h5>
+              <h5>Eduaction</h5>
               <small>#of clients worked with</small>
             </article>
 
@@ -29,6 +29,48 @@ const Experience = () => {
               <h5>Projects</h5>
               <small># of completed projects</small>
             </article>
+          </div>
+          <div class="section-block timeline-block">
+            <div class="container-fluid">
+              <div class="section-header">
+                <h2>
+                  My <strong class="color">Education</strong>
+                </h2>
+              </div>
+
+              <ul class="timeline">
+                <li>
+                  <div class="timeline-content">
+                    <h4>UNIVERSITY OF CALIFORNIA DAVIS </h4>
+
+                    <em>
+                      <span>
+                        Bachelor of Science in Computer Science <br /> EXPECTED
+                        JUNE 2025
+                      </span>
+                    </em>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="timeline-content">
+                    <h4>SAN BERNARDINO VALLEY COLLEGE</h4>
+
+                    <em>
+                      <span>
+                        AS-T IN COMPUTER SCIENCE <br /> MAY 2023 / GPA 3.81
+                      </span>
+                    </em>
+
+                    <p>
+                      Coursework: Fundamentals of Computer Science, Discrete
+                      Structures, Programming in C++, Assembly Language, Data
+                      Structures and Algorithms, Programming with Java
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
