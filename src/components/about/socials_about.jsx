@@ -2,7 +2,7 @@ import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { ImYoutube2 } from "react-icons/im";
-
+//try to make them like https://visme.co/blog/website-color-schemes/
 const Socials_about = () => {
   return (
     <div className="header_socials">
