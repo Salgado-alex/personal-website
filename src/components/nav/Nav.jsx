@@ -17,11 +17,11 @@ const Nav = () => {
       if (scrollTop > lastScrollTop) {
         // Scrolling down
         topNavbar.style.top = "-100px";
-        bottomNavbar.style.bottom = "0";
+        bottomNavbar.style.bottom = "15px";
       } else {
         // Scrolling up
         topNavbar.style.top = "0";
-        bottomNavbar.style.bottom = "-60px"; // Adjust this value to hide/show the bottom navbar
+        bottomNavbar.style.bottom = "-100px"; // Adjust this value to hide/show the bottom navbar
       }
 
       lastScrollTop = scrollTop;
@@ -38,22 +38,13 @@ const Nav = () => {
   return (
     <div>
       <header className="top-navbar">
-        <nav className="header">
-          <div className="logo">Alex Salgado</div>
-          <div>
-            <ul className="nav-links">
-              <li>
-                <a className="about-click" href="#about">
-                  About
-                </a>
-              </li>
-              <li>
-                <a className="about-click" href="#experience">
-                  Experience
-                </a>
-              </li>
-            </ul>
-          </div>
+        <a href="#" className="logo">
+          Alex Salgado
+        </a>
+        <nav className="navbar">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
         </nav>
       </header>
 
