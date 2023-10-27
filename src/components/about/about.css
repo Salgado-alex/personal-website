@@ -36,6 +36,7 @@
 }
 /*header socials*/
 .header_socials {
+  margin-left: 2%;
   display: flex;
   flex-direction: column;
   align-items: center;

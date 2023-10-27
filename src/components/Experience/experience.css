@@ -40,12 +40,11 @@
 }
 
 .about_container {
-  display: grid;
   grid-template-columns: 35% 50%;
   gap: 15%;
 }
 .about_cards {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
@@ -83,7 +82,7 @@
 
 .experience_container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr auto 1fr;
   gap: 2rem;
 }
 .experience_container > div {
@@ -137,6 +136,7 @@
 .timeline > li {
   padding-left: 40px;
   margin-bottom: 40px;
+  margin-right: 40px;
 }
 .timeline > li:last-of-type {
   margin-bottom: 0;
