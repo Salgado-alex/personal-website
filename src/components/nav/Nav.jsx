@@ -14,7 +14,7 @@ const Nav = () => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
 
-      if (scrollTop > lastScrollTop) {
+      if (scrollTop > 50) {
         // Scrolling down
         topNavbar.style.top = "-100px";
         bottomNavbar.style.bottom = "15px";
@@ -41,6 +41,7 @@ const Nav = () => {
         <a href="#" className="logo">
           Alex Salgado
         </a>
+
         <nav className="navbar">
           <a href="#">Home</a>
           <a href="#about">About</a>
@@ -49,7 +50,6 @@ const Nav = () => {
       </header>
 
       {/* Content of your webpage goes here */}
-
       <footer className="bottom-navbar">
         <nav className="bottom">
           <a
