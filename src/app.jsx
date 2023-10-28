@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "./components/nav/Nav";
+import DarkMode from "./components/DarkMode/DarkMode";
 import Experience from "./components/Experience/Experience";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
@@ -8,7 +9,9 @@ const App = () => {
   return (
     <>
       <Nav />
+      <DarkMode />
       <About />
+
       <Experience />
       <Contact />
       <Footer />
