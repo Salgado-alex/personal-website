@@ -1,6 +1,6 @@
 .top-navbar {
   z-index: 1;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 85%;
@@ -11,7 +11,7 @@
 }
 .logo {
   font-size: 30px;
-  color: black;
+  color: var(--body_color);
   text-decoration: none;
   font-weight: 600;
 }
@@ -20,7 +20,7 @@
 }
 .navbar a {
   font-size: 23px;
-  color: black;
+  color: var(--body_color);
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;

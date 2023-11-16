@@ -5,11 +5,11 @@
   --body_color: black;
   --link_color: navy;
 }
-
 [data-theme="dark"] {
   --body_background: #282c34;
   --body_color: white;
   --link_color: cyan;
+  --background-size: cover;
 }
 
 html,
@@ -20,8 +20,8 @@ body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
-  width: 100%;
-  height: 100%;
+  background-position: center;
+  background-size: var(--background-size);
 }
 
 /*---------------------------------------

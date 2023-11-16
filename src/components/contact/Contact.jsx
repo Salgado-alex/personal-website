@@ -86,9 +86,7 @@ const Contact = () => {
               <div class="contact-info-icons">
                 <div class="contact-info">
                   <p>
-                    1566 Genevieve st
                     <br />
-                    San Bernardino, CA 92405
                   </p>
                 </div>
 
