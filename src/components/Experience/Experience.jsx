@@ -1,15 +1,16 @@
 import React from "react";
 import "./experience.css";
 import { Container, Row, Col } from "react-bootstrap";
-//import { BsCardChecklist } from "react-icons/bs";
-//import { FiAward } from "react-icons/fi";
-//import { FiUsers } from "react-icons/fi";
-//import { BsFillFolderFill } from "react-icons/bs";
+import { BsCardChecklist } from "react-icons/bs";
+import { FiAward } from "react-icons/fi";
+import { FiUsers } from "react-icons/fi";
+import { BsFillFolderFill } from "react-icons/bs";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import pic1 from "../../images/meter1.svg";
 import pic2 from "../../images/meter2.svg";
 import pic3 from "../../images/meter3.svg";
+import ME from "../../images/picture-coming-soon-icon-vector-31612572.webp";
 
 const Experience = () => {
   const responsive = {
@@ -32,23 +33,20 @@ const Experience = () => {
 
   return (
     <section id="experience">
-      {/* 
-      <h5>Get to know </h5>*/}
       <h2>About me</h2>
-
+      <div className="container about_container">
+        <div className="about_me">
+          <div className="about_me-image">
+            <img src={ME} alt="about " />
+          </div>
+        </div>
+      </div>
       <div className="container about_container">
         <div className="about_content">
           <div className="about_cards">
-            {/* 
-            <article className="about_card">
-              <FiAward className="about_icon" />
-              <h5>Experience</h5>
-              <small>Number of years of Exp.</small>
-            </article>
-
             <article className="about_card">
               <FiUsers className="about_icon" />
-              <h5>Eduaction</h5>
+              <h5>Education</h5>
               <small>#of clients worked with</small>
             </article>
 
@@ -56,52 +54,9 @@ const Experience = () => {
               <BsFillFolderFill className="about_icon" />
               <h5>Projects</h5>
               <small># of completed projects</small>
-            </article> 
-            */}
+            </article>
           </div>
 
-          <div class="section-block timeline-block">
-            <div class="container-fluid">
-              <div class="section-header">
-                <h2>
-                  My <strong class="color">Education</strong>
-                </h2>
-              </div>
-
-              <ul class="timeline">
-                <li>
-                  <div class="timeline-content">
-                    <h4>UNIVERSITY OF CALIFORNIA DAVIS </h4>
-
-                    <em>
-                      <span>
-                        Bachelor of Science in Computer Science <br /> EXPECTED
-                        JUNE 2025
-                      </span>
-                    </em>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="timeline-content">
-                    <h4>SAN BERNARDINO VALLEY COLLEGE</h4>
-
-                    <em>
-                      <span>
-                        AS-T IN COMPUTER SCIENCE <br /> MAY 2023 / GPA 3.81
-                      </span>
-                    </em>
-
-                    <p>
-                      Coursework: Fundamentals of Computer Science, Discrete
-                      Structures, Programming in C++, Assembly Language, Data
-                      Structures and Algorithms, Programming with Java
-                    </p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
             possimus voluptatum deleniti porro quibusdam pariatur nam esse
@@ -110,7 +65,7 @@ const Experience = () => {
           </p>
         </div>
       </div>
-
+      {/* 
       <section className="skills" id="skills">
         <Container>
           <Row>
@@ -147,20 +102,14 @@ const Experience = () => {
           </Row>
         </Container>
       </section>
-
-      {/* 
-      <h2>My skills</h2>*/}
-
+*/}
       <div className="container experience_container">
         <div className="experience_frontend">
-          {/* 
-          <h3>Frontend Development</h3>*/}
+          <h3>Frontend Development</h3>
           <div className="experience_content">
-            {/*
             <article className="experience_details">
               <BsCardChecklist className="experience_details-icon" />
               <div>
-                
                 <h4>HTML</h4>
                 <small className="text-light">Experienced</small>
               </div>
@@ -193,13 +142,11 @@ const Experience = () => {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
-            */}
           </div>
         </div>
         <div className="experience_backend">
-          {/* <h3>Backend Developement</h3>*/}
+          <h3>Backend Developement</h3>
           <div className="experience_content">
-            {/*
             <article className="experience_details">
               <BsCardChecklist className="experience_details-icon" />
               <div>
@@ -228,7 +175,6 @@ const Experience = () => {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
-            */}
           </div>
         </div>
       </div>

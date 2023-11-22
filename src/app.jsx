@@ -11,7 +11,6 @@ const App = () => {
       <Nav />
       <DarkMode />
       <About />
-
       <Experience />
       <Contact />
       <Footer />
